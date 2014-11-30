@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'OpenSansHebrew Regular';
+    src: url('opensanshebrew-regular.eot');
+    src: url('opensanshebrew-regular.eot?#iefix') format('embedded-opentype'),
+         url('opensanshebrew-regular.woff') format('woff'),
+         url('opensanshebrew-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansHebrew Bold';
+    src: url('opensanshebrew-bold.eot');
+    src: url('opensanshebrew-bold.eot?#iefix') format('embedded-opentype'),
+         url('opensanshebrew-bold.woff') format('woff'),
+         url('opensanshebrew-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'OpenSansHebrew Light';
+    src: url('opensanshebrew-light.eot');
+    src: url('opensanshebrew-light.eot?#iefix') format('embedded-opentype'),
+         url('opensanshebrew-light.woff') format('woff'),
+         url('opensanshebrew-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'NotoSansHebrew Bold';
+    src: url('notosanshebrew-bold.eot');
+    src: url('notosanshebrew-bold.eot') format('embedded-opentype'),
+    url('notosanshebrew-bold.woff') format('woff'),
+    url('notosanshebrew-bold.ttf') format('truetype'),
+    url('notosanshebrew-bold.svg#NotoSansHebrewBold') format('svg');
+}
+
+@font-face {
+    font-family: 'NotoSansHebrew Regular';
+    src: url('notosanshebrew-regular.eot');
+    src: url('notosanshebrew-regular.eot') format('embedded-opentype'),
+    url('notosanshebrew-regular.woff') format('woff'),
+    url('notosanshebrew-regular.ttf') format('truetype'),
+    url('notosanshebrew-regular.svg#NotoSansHebrewRegular') format('svg');
+}

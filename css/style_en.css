@@ -1,0 +1,399 @@
+@charset "utf-8";
+@import "enfont/stylesheet.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "OpenSans Regular";
+    background-color: #f1eee8;
+}
+a > img{
+    border: 0;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    height: 140px;
+    background-color: #143354;
+}
+.topleft{
+    display: inline-block;
+    float: right;
+    height: 140px;
+    width: 248px;
+    margin-right: 20px;
+}
+.topright{
+    display: inline-block;
+    width: 609px;
+    height: 140px;
+    float: left;
+}
+.logo{
+    display: block;
+    width: 193px;
+    height: 120px;
+    margin: 20px 0 0 55px;
+}
+.lang{
+    float: left;
+    display: block;
+    margin: 14px 0 0 20px;
+}
+.lang li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 6px;
+}
+.slogan{
+    display: table;
+    width: 100%;
+    text-align: left;
+    color: white;
+    margin:52px 0 0 30px;
+}
+.title{
+    font: 34px "NotoSans Regular";
+    letter-spacing: 1.35pt;
+    text-transform: uppercase;
+}
+.title{
+    font: 30px "OpenSans Regular";
+}
+.subtitle{
+    font:15px "NotoSans Regular";
+    font-weight: lighter;
+    letter-spacing: 0.8pt;
+    line-height: 25px;
+}
+
+.menu-top-border{
+    background: url("../images/menu-bg.png") repeat-x;
+    height: 7px;
+}
+.menu-bottom{
+    height: 15px;
+    background-color: #e7e2d7;
+}
+
+.nav-container{
+    border-top: 2px solid #212325;
+    background-color: #181a1c;
+    height: 55px;
+}
+nav.menu{
+    height: 58px;
+    display: table;
+    width: 980px;
+    margin: -2px auto 0;
+}
+nav .container{
+    display: table-row;
+    height: 55px;
+}
+nav .container > div{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 55px;
+}
+.nav-buttons{
+    width: 340px;
+}
+.nav-buttons li{
+    list-style: none;
+    display: inline-block;
+    height: 48px;
+}
+nav a.button{
+    display: block;
+    font: 16px "NotoSans Regular";
+    color: #a1a1a1;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 0;
+    background-color: #232527;
+    width: 105px !important;
+    border: 1px solid #0f0f11;
+    text-align: center;
+}
+.button:hover{
+    background-color: #333538;
+}
+.nav-links{
+    font: 16px "NotoSans Regular";
+    width: 540px;
+    height: 55px;
+    padding-left: 20px;
+}
+.nav-links li{
+    display: inline-block;
+    float: left;
+    background: url("../images/divider.png") right center no-repeat;
+    overflow: hidden;
+    height: 57px;
+}
+.nav-links li:first-child{
+    background: url("../images/divider.png") right center no-repeat;
+}
+.nav-links li:last-child{
+    background: none;
+}
+.nav-links a{
+    display: block;
+    height: 57px;
+    padding: 0 22px;
+    line-height: 52px;
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+.nav-links li > a.active{
+    color: #ffffff;
+    background: url("../images/arrow.png") center 100% no-repeat;
+}
+
+.carousel-bg{
+    background-color: #798f9e;
+    height: 290px;
+    margin-top: 70px;
+}
+.wrapper .container:first-child{
+    margin-top: -328px;
+}
+.carousel{
+    margin:0 20px;
+    height: 362px;
+    overflow: hidden;
+}
+.item{
+    position: relative;
+    height: 362px;
+    display: table-row;
+    z-index: -1;
+}
+.item.active{
+    z-index: 100;
+}
+.item > div, .item > img{
+    display: table-cell;
+    vertical-align: top;
+}
+.carousel img{
+    width: 620px;
+    height: 362px;
+}
+.description{
+    background-color: #143354;
+    color: #bcd4e7;
+    padding:36px 40px;
+    text-align: justify;
+}
+.description p{
+    font: 13px Arial;
+    line-height: 18px;
+    margin-top: 16px;
+}
+.description h3{
+    font: 38px "NotoSans Regular";
+    color: #e9eff4;
+    line-height: 38px;
+}
+.description .greenbutton{
+    margin-top: 20px;
+}
+.greenbutton{
+    background: #6aa515 url("../images/green-btn-bg.png");
+    color:#ffffff;
+    padding: 3px 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    height: 18px;
+    font: 12px "NotoSans Bold";
+}
+a.greenbutton{
+    display: block;
+    max-width: 37px;
+}
+.divider{
+    background-color: #cecece;
+    margin: 43px 0;
+    height: 1px;
+}
+.entities{
+    height: 320px;
+}
+.entities > .container{
+    top:1px;
+}
+.entity-item{
+    display: block;
+    float: left;
+    margin: 0 0 0px 20px;
+    width: 300px;
+    background: url("../images/entity-bg-flip.png") no-repeat;
+}
+.entity-item > form{
+    margin-top: 14px;
+}
+.entity-item h4{
+    color: #434242;
+    font: 18px "NotoSans Bold";
+    line-height: 20px;
+    padding: 13px 0 15px 0;
+    margin: 8px 0 0 20px;
+}
+.entity-item p{
+    font: 13px Arial;
+    line-height: 18px;
+    margin: 0 0 17px 20px;
+}
+.entity-item .greenbutton{
+    margin-top: 14px;
+}
+.greenbutton.right{
+    float: right;
+}
+input[type=submit].greenbutton{
+    display: block;
+    float: right;
+    margin: 9px 39px 0 0;
+    border: 0;
+    height: 25px;
+}
+.centered{
+    text-align: center;
+}
+.centered h4{
+    font:24px "NotoSans Regular";
+    line-height: 40px;
+    text-align: center;
+    padding:5px 0 3px 0;
+    margin: 8px 0;
+}
+.entity-item input[type=text]{
+    width: 202px;
+    height: 34px;
+    padding:0 9px;
+    color: #434242;
+    font: 14px "NotoSans Regular";
+    line-height: 33px;
+    border:1px solid #d2d2d2;
+    margin-bottom: 4px;
+}
+.lightCarousel{
+    height: 157px;
+    width: 300px;
+    overflow: hidden;
+}
+.lightCarousel li{
+    width: 300px;
+    height: 157px;
+}
+.carouselLight{
+    width: 940px;
+    margin:0 auto;
+    padding:0 0 32px 0;
+}
+.carousel-title{
+    margin-top: -18px;
+    padding-bottom: 18px;
+}
+.carousel-title > h3{
+    font: 18px "NotoSans Regular";
+    line-height: 20px;
+    margin-left: 20px;
+}
+.carouselLight > div{
+    width: 940px;
+    margin: 0 auto;
+}
+.carouselLight > div > a, .carouselLight > div > div{
+    display: inline-block;
+}
+.btnNext{
+    float: right;
+}
+.btnPrev{
+    float: left;
+}
+.carouselLight > div > a{
+    position: relative;
+    top: 25px;
+}
+.carousel-inner{
+    display: table-row;
+    width: 820px !important;
+    margin: 0 28px;
+}
+.carouselLight li{
+    text-align: center;
+    list-style: none;
+    width: 100px;
+    height: 76px;
+    background-color: #ffffff;
+    border:1px solid #e4e4e3;
+    margin: 0 8px !important;
+}
+.carouselLight li > a{
+    display: table-cell;
+    vertical-align: middle;
+}
+.middlize{
+    display: table;
+    vertical-align: middle;
+}
+footer{
+    height: 100px;
+    background-color: #143354;
+}
+footer p{
+    font: 14px "NotoSans Regular";
+    line-height: 18px;
+}
+footer .container{
+    height: 100px;
+}
+.footer-inner{
+    display: table-row;
+    height: 100px;
+    width: 940px;
+}
+footer img{
+    float: right;
+    margin-right:10px;
+    max-height: 70px;
+    max-width: 70px;
+}
+footer img:first-child{
+    padding:0 0 5px 10px;
+}
+.footer-inner > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.footer-logos{
+    padding: 12px 0 0 0;
+    width: 260px;
+}
+.footer-text{
+    width: 410px;
+    color: #9db0c3;
+    padding-right: 50px;
+}
+.contact{
+    width: 179px;
+    padding-left: 70px;
+    background: url("../images/telephone.png") 9% center no-repeat;
+}
+.contact p{
+    color: #547290;
+}
+.contact h3{
+    font: 22px "OpenSans Regular";
+    line-height: 22px;
+    color: #fffefe;
+}
